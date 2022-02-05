@@ -26,6 +26,7 @@ jobs:
           pytest libpythonpro --cov=libpythonpro
       - name: Send the report
         run: |
+          # run codecov
           codecov
       - name: Coverage
         env:
