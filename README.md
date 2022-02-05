@@ -8,6 +8,7 @@ Link para o curso [Python Pro](https://www.python.pro.br/)
 [![Build Status](https://app.travis-ci.com/JonathansManoel/libpythonpro.svg?branch=main)](https://app.travis-ci.com/JonathansManoel/libpythonpro)
 [![Updates](https://pyup.io/repos/github/JonathansManoel/libpythonpro/shield.svg)](https://pyup.io/repos/github/JonathansManoel/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/JonathansManoel/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/JonathansManoel/libpythonpro/)
+[![codecov](https://codecov.io/gh/JonathansManoel/libpythonpro/branch/Main/graph/badge.svg?token=BKV5F54WFI)](https://codecov.io/gh/JonathansManoel/libpythonpro)
 
 Suportada versão 3 de Python
 
