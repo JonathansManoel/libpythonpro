@@ -14,4 +14,5 @@ pyparsing!=3.0.5,>=2.0.2
 #Converage
 pytest-cov==3.0.0
 coverage==6.3.1
+codecov==2.1.12
 -r requirements.txt
