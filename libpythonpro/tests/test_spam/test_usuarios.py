@@ -2,8 +2,12 @@ from libpythonpro.spam.db import Conexao
 from libpythonpro.spam.modelos import Usuario
 
 
+def concexao():
+    return Conexao()
+
+
 def test_salvar_usuario():
-    conexao = Conexao()
+    conexao = concexao()
     sessao = conexao.gerar_sessao()
     usuario = Usuario(nome='Jonathan')
     sessao.salvar(usuario)
@@ -11,6 +15,7 @@ def test_salvar_usuario():
     sessao.roll_back()
     sessao.fechar()
     conexao.fechar()
+
 
 def test_listar_usuarios():
     conexao = Conexao()
