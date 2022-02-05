@@ -24,3 +24,9 @@ jobs:
       - name: Test with pytest
         run: |
           pytest libpythonpro --cov=libpythonpro
+      - name: Send the report
+        run: |
+          codecov
+      - name: Coverage
+        env:
+          CODECOV_TOKEN: "e964579d-2fbf-458b-9531-7d5bda239880"
