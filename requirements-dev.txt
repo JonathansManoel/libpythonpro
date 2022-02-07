@@ -18,6 +18,6 @@ codecov==2.1.12
 
 #Mock
 pytest-mock==3.7.0
-pyparsing==2.4.7
+pyparsing==3.0.7
 packaging==21.3
 -r requirements.txt
