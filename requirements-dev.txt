@@ -17,7 +17,7 @@ coverage==6.3.1
 codecov==2.1.12
 
 #Mock
-pytest-mock==3.5.1
+pytest-mock==3.7.0
 pyparsing==2.4.7
 packaging==20.9
 -r requirements.txt
