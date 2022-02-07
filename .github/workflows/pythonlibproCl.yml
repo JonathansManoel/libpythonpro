@@ -14,7 +14,8 @@ jobs:
       - name: Instalar dependências
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements-dev.txt codecov
+          pip install -q pipenv codecov flake8
+          pipenv sync --dev
       - name: Lint with flake8
         run: |
           # stop the build if there are Python syntax errors or undefined names 
@@ -26,6 +27,6 @@ jobs:
           pytest libpythonpro --cov=libpythonpro
       - name: Relatório Coverage
         env:
-          CODECOV_TOKEN: "e964579d-2fbf-458b-9531-7d5bda239880"
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         run: |
           codecov
